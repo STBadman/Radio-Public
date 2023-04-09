@@ -1,0 +1,3 @@
+[submodule "pyspedas"]
+	path = pyspedas
+	url = git@github.com:STBadman/pyspedas.git
