@@ -19,5 +19,21 @@ __Citations__
 
 * Samuel T. Badman et al 2022 ApJ 938 95 https://doi.org/10.3847/1538-4357/ac90c2
 
+__Installation Instructions__
+
+This repository requires a submodule (a fork of pyspedas : https://github.com/STBadman/pyspedas/tree/583fe444242c4e64923295579a476372dc3b0a9c which adds access to the cited STEREO dataset). To setup this submodule, in bash do : 
+
+``` 
+git submodule init
+git submodule update
+```
+
+The repository has been tested using the bundled conda environment file. To create and use this :
+
+```
+cd <path/to/>Radio-Public
+conda env create --file conda_env.yml
+conda activate tdoa
+```
 
 
